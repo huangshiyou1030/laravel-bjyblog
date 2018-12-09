@@ -179,16 +179,6 @@
                     <dd>联系邮箱：<a href="mailto:{!! config('bjyblog.admin_email') !!}">{!! config('bjyblog.admin_email') !!}</a></dd>
                 @endif
             </dl>
-
-            <dl class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <dt>架构</dt>
-                <dd>项目名称：<a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">laravel-bjyblog</a></dd>
-                <dd>版本分支：{{ config('bjyblog.version') }}-{{ config('bjyblog.branch') }}</dd>
-                <dd>项目作者：<a href="https://baijunyao.com">白俊遥</a></dd>
-                <dd>主题名称：<a rel="nofollow" href="https://github.com/baijunyao/blog-theme-blueberry">blog-theme-blueberry</a></dd>
-                <dd>主题作者：<a href="https://baijunyao.com">白俊遥</a></dd>
-            </dl>
-
             <dl class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <dt>统计</dt>
                 <dd>文章总数：{{ $articleCount }}</dd>
